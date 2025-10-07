@@ -25,7 +25,7 @@ const pass = document.getElementById("password");
 const regBtn = document.getElementById("registerBtn");
 
 
-// 🔒 Əgər artıq login olubsa → dərhal home.html-ə yönləndir
+// 🔒 Əgər artıq login olubsa → dərhal index.html-ə yönləndir
 onAuthStateChanged(auth, (user) => {
     if (user) {
         window.location.href = "./login.html";

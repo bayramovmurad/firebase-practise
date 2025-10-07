@@ -35,7 +35,7 @@ logBtn.onclick = async () => {
         alert("Giriş uğurlu!");
         email.value = "";
         pass.value = "";
-        window.location.href = "../home.html"; // yönləndirmə
+        window.location.href = "../index.html"; // yönləndirmə
     } catch (err) {
         alert("Xəta: " + err.message);
     }
