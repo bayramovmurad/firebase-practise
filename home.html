@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Panel</title>
+    <link rel="stylesheet" href="./assets/css/home.css">
+</head>
+
+<body>
+    <!-- !spinner -->
+    <div id="loader" class="loader-overlay">
+        <div class="spinner"></div>
+    </div>
+    <!-- ! -->
+    <h2>Post Sistemi</h2>
+    <button id="logoutBtn">Çıxış</button>
+    <!-- <a id="adminLink" href="./admin.html">AdminPanel</a> -->
+    <p id="userInfo">İstifadəçi: yox</p>
+
+    <div class="post-form">
+        <input id="title" type="text" placeholder="Başlıq">
+        <textarea id="text" placeholder="Mətn..."></textarea>
+        <button id="addPostBtn">Yarat</button>
+    </div>
+
+    <div id="posts"></div>
+
+    <script type="module" src="./assets/javascript/home.js"></script>
+</body>
+
+</html>
